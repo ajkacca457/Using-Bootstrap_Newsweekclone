@@ -1,0 +1,27 @@
+
+body {
+  background-color: #F4F5F6;
+}
+
+.container-main {
+  width: 96%;
+}
+.navbartop {
+  background-color: #F72210;
+}
+
+.weather-logo {
+  height: 24px;
+  width: 24px;
+}
+
+.brand {
+  width: 396px;
+  height: 60px;
+  color:white;
+}
+
+.textbar-bold {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+}
