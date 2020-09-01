@@ -39,3 +39,18 @@ body {
   width: 100%;
   height: 290px;
 }
+
+.small-img {
+  width: 100%;
+  height: 200px;
+}
+
+.lg-img {
+  width: 100%;
+  height: 250px;
+}
+
+.x-small {
+  width: 95px;
+  height: 65px;
+}
