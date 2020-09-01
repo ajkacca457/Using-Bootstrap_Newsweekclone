@@ -1,4 +1,3 @@
-
 body {
   background-color: #F4F5F6;
 }
@@ -171,4 +170,14 @@ border: none;
 .longimg {
   width: 191px;
   height: 300px;
+}
+
+.n-logo {
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.img-section {
+  width: 100%;
+  height: 222px;
 }
