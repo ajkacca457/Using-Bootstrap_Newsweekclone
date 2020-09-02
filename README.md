@@ -22,6 +22,11 @@ https://newsweekclone-app.netlify.app/
 <h2>Getting Started</h2>
 To get a local copy up and running follow these simple example steps.
 
+- Clone or download this repository;
+- Unpack (if downloaded);
+- Execute index.html on your favorite browser;
+
+
 Prerequisites
 Text editor,Github profile and Git.
 
