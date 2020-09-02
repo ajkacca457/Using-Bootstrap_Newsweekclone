@@ -1,5 +1,5 @@
 body {
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
 }
 
 .container-main {
@@ -7,11 +7,11 @@ body {
 }
 
 .bg-color {
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .txt-color {
-  color: #F72210;
+  color: #f72210;
 }
 
 .weather-logo {
@@ -22,18 +22,19 @@ body {
 .brand {
   width: 396px;
   height: 60px;
-  fill:white;
+  fill: white;
 }
+
 .brand-m-s {
   width: 132px;
   height: 20px;
-  fill:white;
+  fill: white;
 }
 
 .login {
-font-size: 18px;
-background: none;
-border: none;
+  font-size: 18px;
+  background: none;
+  border: none;
 }
 
 .subscription {
@@ -53,7 +54,7 @@ border: none;
 }
 
 .bar {
-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .person {
@@ -61,8 +62,8 @@ transform: scale(1.3);
 }
 
 .roboto {
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
 }
 
 .textbar-bold {
@@ -73,13 +74,12 @@ transform: scale(1.3);
   width: 70px;
   height: 12px;
   right: 0;
-  top:100%;
+  top: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 36% 100%);
 }
 
 .info {
   border: 1px solid rgba(166, 166, 166, 0.56);
-
 }
 
 .form-submit {
@@ -94,13 +94,16 @@ transform: scale(1.3);
 .title {
   font-size: 16px;
 }
+
 .title-small {
   font-size: 14px;
 }
+
 .fleximg {
   width: 95px;
   height: 95px;
 }
+
 .flex-title {
   font-size: 15px;
 }
@@ -111,21 +114,21 @@ transform: scale(1.3);
 
 .heavy1 {
   height: 3px;
-  background-color:grey;
-  opacity: .5;
+  background-color: grey;
+  opacity: 0.5;
 }
 
 .heavy2 {
   height: 3px;
   border: 1px solid black;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .tag {
   font-size: 17px;
-  bottom:-8px;
-  left:0px;
-  color:red;
+  bottom: -8px;
+  left: 0;
+  color: red;
 }
 
 .circimg {
@@ -134,11 +137,10 @@ transform: scale(1.3);
 }
 
 .bcircle {
-  top:-20px;
-  left:40%;
+  top: -20px;
+  left: 40%;
   background-color: black;
   border-radius: 50%;
-
 }
 
 .heading1 {
@@ -146,7 +148,7 @@ transform: scale(1.3);
 }
 
 .absolute-p {
-   bottom: -17px;
+  bottom: -17px;
 }
 
 .smallimg {
@@ -180,7 +182,7 @@ transform: scale(1.3);
 }
 
 .abs-item-2 {
-  left:90px;
+  left: 90px;
   top: 10px;
 }
 
@@ -189,8 +191,8 @@ transform: scale(1.3);
 }
 
 .longimg {
-  width:35%;
-  }
+  width: 35%;
+}
 
 .n-logo {
   font-size: 23px;
@@ -207,13 +209,13 @@ transform: scale(1.3);
 }
 
 .form-text {
-  border: 1px solid lightgray
+  border: 1px solid lightgray;
 }
 
 .brand-red {
   width: 236px;
   height: 36px;
-  fill: #F72210;
+  fill: #f72210;
 }
 
 .copyright {
