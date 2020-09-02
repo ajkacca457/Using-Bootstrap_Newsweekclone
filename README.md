@@ -2,7 +2,7 @@
 
 This project is a clone of The Newsweek interface. The aim of this project was to recreate The Newsweek design using html,css and bootstrap technologies. Bootstrap was the main framework that was used in building this project.
 
-<img src="images/picture1.png" alt="projectimg">
+<img src="images/picture1.PNG" alt="projectimg">
 
 </h1>Additional description about the project and its features.</h1>
 
@@ -31,7 +31,7 @@ Text editor,Github profile and Git.
 👤 Avijit Karmaker
 
 
-Github: @ajkacca457
+Github: https://github.com/ajkacca457
 
 Twitter: @ajkacca
 
