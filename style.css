@@ -221,3 +221,16 @@ transform: scale(1.3);
   bottom: -1.3rem;
   right: -9rem;
 }
+
+.s5 {
+  width: 95%;
+  margin: auto;
+}
+
+.img-size {
+  height: 70%; 
+}
+
+.head-fonts {
+  font-size: 85%;
+}
