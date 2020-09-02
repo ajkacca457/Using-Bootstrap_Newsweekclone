@@ -24,6 +24,11 @@ body {
   height: 60px;
   fill:white;
 }
+.brand-m-s {
+  width: 132px;
+  height: 20px;
+  fill:white;
+}
 
 .login {
 font-size: 18px;
@@ -37,6 +42,22 @@ border: none;
   border: none;
   height: 40px;
   border-radius: 20px;
+}
+
+.subscription-small {
+  font-size: 14px;
+  background-color: #ffe400;
+  border: none;
+  height: 25px;
+  border-radius: 20px;
+}
+
+.bar {
+transform: scale(1.3);
+}
+
+.person {
+  transform: scale(1.2);
 }
 
 .roboto {
