@@ -20,9 +20,14 @@ Atom editor, Visual code
 https://newsweekclone-app.netlify.app/
 
 <h2>Getting Started</h2>
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
-Prerequisites
+- Clone or download this repository;
+- Unpack (if downloaded);
+- Execute index.html on your favorite browser;
+
+
+<h2>Prerequisites</h2>
 Text editor,Github profile and Git.
 
 <h2>Authors</h2>
