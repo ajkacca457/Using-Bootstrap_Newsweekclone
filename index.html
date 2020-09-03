@@ -22,7 +22,7 @@
     <header>
 
       <!--top navigation bar with logo-->
-    <div class="navbartop bg-color d-lg-flex d-none p-3 justify-content-around position-relative">
+    <nav class="navbartop bg-color d-lg-flex d-none p-3 justify-content-around position-relative">
       <div class="weather flex-fill">
         <div class="headcont d-flex">
           <img src="images/weather.png" alt="" class="weather-logo">
@@ -43,9 +43,10 @@
         <button class="login text-white roboto">Login</button>
         <button class="subscription px-4 py-1 ml-3 roboto">subscription offer <i class="fas fa-angle-right"></i></button>
 </div>
-  </div>
+</nav>
+
   <!--navigation bar for the medium and small-->
-  <div class="navbartop bg-color d-lg-none d-flex p-2 justify-content-around position-relative">
+  <nav class="navbartop bg-color d-lg-none d-flex p-2 justify-content-around position-relative">
 
     <div class="navlogo flex-fill justify-self-center">
       <a href="https://www.newsweek.com">
@@ -55,17 +56,16 @@
     </div>
 
   <div class="primary-btn d-flex justify-content-end align-items-center">
-      <i class="fas fa-user-alt person text-white d-block d-md-none"></i>
+      <i class="fas fa-user-alt person text-white ml-3 d-block d-md-none"></i>
       <button class="login text-white roboto d-none d-md-block ">Login</button>
       <button class="subscription-small px-4 py-1 ml-3 roboto">subscription offer <i class="fas fa-angle-right"></i></button>
       <i class="fas fa-bars ml-3 bar mr-3 text-white"></i>
   </div>
 
-
-  </div>
+</nav>
 
       <!--Middle navigation bar with all the links-->
-    <div class="navbarmiddle bg-light border-bottom d-none d-lg-block">
+    <nav class="navbarmiddle bg-light border-bottom d-none d-lg-block">
       <ul class="textbar-bold roboto d-flex list-unstyled justify-content-around m-0 p-2 ">
         <li class="textbar-item  border-right pr-3"><a href="https://www.newsweek.com/us"  class="text-dark">U.S.</a></li>
         <li class="textbar-item  border-right pr-3"><a href="https://www.newsweek.com/world"  class="text-dark ">World</a></li>
@@ -80,10 +80,10 @@
         <li class="textbar-item border-right pr-3"><a href="https://www.newsweek.com/weather"  class="text-dark ">Weather</a></li>
         <li class="textbat-item border-right pr-3"><input type="text" placeholder="Search" class="border-0 w-50 ml-2 text-center"><i class="fas fa-search"></i></li>
       </ul>
-    </div>
+    </nav>
 
       <!--Bottom navigation bar with all the side link-->
-    <div class="navbarbottom pt-3 border-bottom d-none d-lg-block">
+    <nav class="navbarbottom pt-3 border-bottom d-none d-lg-block">
     <ul class="textbar-bold roboto list-unstyled d-flex justify-content-start">
       <li class="textbar-item text-dark pr-2 pl-2 pl-2">Trending</li>
       <li class="textbar-item"><a href="https://www.newsweek.com/topic/donald-trump" class="text-dark pr-2 pl-2 pl-2">Donald Trump</a></li>
@@ -92,7 +92,7 @@
       <li class="textbar-item"><a href="https://www.newsweek.com/topic/coronavirus" class="text-secondary pr-2 pl-2 pl-2">Coronavirus</a></li>
       <li class="textbar-item"><a href="https://www.newsweek.com/topic/2020-election" class="text-secondary pr-2 pl-2 pl-2">2020 Election</a></li>
     </ul>
-    </div>
+  </nav>
     </header>
       <!--End of header and nav section-->
 
@@ -518,11 +518,11 @@
       <div class="byline roboto"><span class="light">By</span> Gordon G. Chang</div>
       </div>
       </div>
-
             </div>
-
                 </div>
 
+
+        <div class="sponsorcont text-center">
             <div class="sponsor">
               <div class="sponsorimg position-relative">
                 <h3 class="tag roboto mt-3 text-secondary position-absolute bg-light px-3 py-2">Sponsored Insight</h3>
@@ -536,7 +536,7 @@
             </div>
 
 
-            <div class="sponsor mt-4 p-3">
+            <div class="sponsor sponsor-form mt-4 p-3">
               <div class="card p-3 bg-light">
         <div class="news-signup"><div class="news-title roboto">Start your day with our top 5 articles</div>
 
@@ -601,7 +601,7 @@
             </div>
 
               </div>
-
+          </div>
 
       <!-- Start of section section -->
         <section class="mt-5 s5">
@@ -614,13 +614,14 @@
             <div class="col-lg-3 col-md-3">
               <div class="section-content bg-light">
                 <div class="section-img position-relative">
-                  <img class="w-100 img-size" src="./images/cover-september.jpg" alt="">
+                  <img class="w-100 img-size-big" src="./images/cover-september.jpg" alt="">
                   <p class="position-absolute absolute-p bg-light p-2">SEPTEMBER 04 ISSUE</p>
                 </div>
                 <p class="text-center py-3 w-100">SEE ALL FEATURES <i class="fas fa-angle-right"></i></p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 align-self-center w-100">
+
+            <div class="col-lg-3 col-md-3 col-sm-12 w-100 ">
               <div class="section-content">
                 <div class="section-img">
                   <img class="w-100 img-size" src="./images/undecided.jpg" alt="">
@@ -632,7 +633,8 @@
                 <p class="font-weight-bold">Undecided Voters Were Key to Trump's Win in 2016. Will They Deliver Again?</p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 align-self-center">
+
+            <div class="col-lg-3 col-md-3 ">
               <div class="section-content">
                 <div class="section-img">
                   <img class="w-100 img-size" src="./images/flippers-banner.jpg" alt="">
@@ -644,7 +646,8 @@
                 <p class="font-weight-bold">Eight Congressional Races Could Decide if Biden Beats Trump</p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 align-self-center">
+
+            <div class="col-lg-3 col-md-3">
               <div class="section-content">
                 <div class="section-img">
                   <img class="w-100 img-size" src="./images/joe-biden.jpg" alt="">
@@ -818,15 +821,15 @@
   <section class="mt-3 s5">
     <h3 class="txt-color font-weight-bold">US</h3>
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <img class="lg-img" src="./images/elections.jpg" alt="">
         <h4 class="mt-2 roboto">Organizations Recruiting Younger Poll Workers Amid Coronavirus Threat</h4>
       </div>
-      <div class="col-lg-4">
+      <div class="col-md-4">
         <img class="lg-img" src="./images/back-blue-rally-kenosha.jpg" alt="">
         <h4 class="mt-2 roboto">At Least 32 Boogaloo Members Present Day of Kenosha Shooting, Loyalist Says</h4>
       </div>
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <div class="grid-flex d-flex">
         <img src="./images/iowa-vote-absentee-ballot-request-lawsuit-democrats.jpg" alt="" class="x-small">
         <p class="ml-2 roboto">Iowa Democrats Sue After Judges Invalidate 64,000 Absentee Ballot Requests</p>
@@ -850,15 +853,15 @@
 <section class="mt-3 s5">
   <h3 class="txt-color font-weight-bold">World</h3>
   <div class="row">
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/carpet-python-snake-brisbane-australia-2017.jpg" alt="">
       <h4 class="mt-2 roboto">Two Pythons Weighing Nearly 40 Pounds 'Smash' Through Kitchen Ceiling</h4>
     </div>
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/diabetes.jpg" alt="">
       <h4 class="mt-2 roboto">Britain Begins Diabetes Trial After 50 Percent Recover Within One Year</h4>
     </div>
-  <div class="col-lg-4">
+  <div class="col-md-4">
     <div class="grid-flex d-flex">
       <img src="./images/cow-burps-are-dangerous.png" alt="" class="x-small">
       <p class="ml-2 roboto">How Your Food Consumption Impacts the Global Environment</p>
@@ -882,16 +885,16 @@
 <section class="mt-3 s5">
   <h3 class="txt-color font-weight-bold">Business</h3>
   <div class="row">
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/cover-pandemic-money-graphic.jpg" alt="">
       <h4 class="mt-2 roboto">How the Pandemic Will Change the Way We Manage Money Forever</h4>
     </div>
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/fea-finance-covid-banner.jpg" alt="">
       <h4 class="mt-2 roboto">Five Money Moves to Make Right Now to Overcome Your Biggest Financial Worries
       </h4>
     </div>
-  <div class="col-lg-4">
+  <div class="col-md-4">
     <div class="grid-flex d-flex">
       <img src="./images/tiktok-logo-phone.jpg" alt="" class="x-small">
       <p class="ml-2 roboto">Officials Keep U.S.-China Trade Deal Alive Despite 'Tantrum Diplomacy'</p>
@@ -915,15 +918,15 @@
 <section class="mt-3 s5">
   <h3 class="txt-color font-weight-bold">Tech&Science</h3>
   <div class="row">
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/elon-musk.jpg" alt="">
       <h4 class="mt-2 roboto">Elon Musk Overtakes Mark Zuckerberg to Become Third-Richest Person in World</h4>
     </div>
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/yamal-crater.jpg" alt="">
       <h4 class="mt-2 roboto">Enormous, 165 Ft Deep Crater Opens on Siberia's Arctic Tundra</h4>
     </div>
-  <div class="col-lg-4">
+  <div class="col-md-4">
     <div class="grid-flex d-flex">
       <img src="./images/full-moon.jpg" alt="" class="x-small">
       <p class="ml-2 roboto">Full Corn Moon Tonight to Set Stage for Rare Halloween Blue Moon</p>
@@ -947,15 +950,15 @@
 <section class="mt-3 s5">
   <h3 class="txt-color font-weight-bold">Culture</h3>
   <div class="row">
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/snake.jpg" alt="">
       <h4 class="mt-2 roboto">Watch a Nurse Pull a Four-Foot Snake Out of a Woman's Throat</h4>
     </div>
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/graceland.jpg" alt="">
       <h4 class="mt-2 roboto">"Eat The Rich": Elvis Presley's Beloved Graceland Vandalized</h4>
     </div>
-  <div class="col-lg-4">
+  <div class="col-md-4">
     <div class="grid-flex d-flex">
       <img src="./images/dwayne-rock-johnson.jpg" alt="" class="x-small">
       <p class="ml-2 roboto">Do You Smell What The Rock Is Cooking? Because Dictionary.com Does</p>
@@ -979,15 +982,15 @@
 <section class="mt-3 s5">
   <h3 class="txt-color font-weight-bold">Sports</h3>
   <div class="row">
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/wwe-nxt-uk-finn-balor-alexander-wolfe.jpg" alt="">
       <h4 class="mt-2 roboto">Finn Bálor Talks Finally Getting His Walter Match</h4>
     </div>
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <img class="lg-img" src="./images/wwe-payback-randy-orton-keith-lee.jpg" alt="">
       <h4 class="mt-2 roboto">WWE 'Monday Night RAW' Results: Drew McIntyre's Next Opponent Decided</h4>
     </div>
-  <div class="col-lg-4">
+  <div class="col-md-4">
     <div class="grid-flex d-flex">
       <img src="./images/clemson-football.jpg" alt="" class="x-small">
       <p class="ml-2 roboto">2020 College Football Preview, Top 20 Preseason Ranking and CFP Prediction</p>
@@ -1012,7 +1015,8 @@
 <section class="mt-3 s5">
 
   <div class="row">
-    <div class="col-lg-8 ">
+
+    <div class="col-lg-8 subscribe-sec">
       <h5 class="txt-color roboto font-weight-bold">SUBSCRIBE</h5>
 
       <div class="item-cont-2 d-lg-flex d-md-flex d-block justify-content-between p-4 bg-light">
@@ -1020,9 +1024,9 @@
         <img src="images/absoluteimg-1.jpg" alt="" class="absolute-item">
           <img src="images/absoluteimg-2.jpg" alt="" class="absolute-item abs-item-2 position-absolute">
       </div>
-        <div class="relativetext mt-3">
-          <h3 class="w-75 roboto">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
-          <p>All Access + Weekly Delivery. <br>Choose A Membership That's Perfect for You!</p>
+        <div class="relativetext">
+          <h5 class="w-75 roboto top-head">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h5>
+          <p class="mt-2">All Access + Weekly Delivery. <br>Choose A Membership That's Perfect for You!</p>
           <button class="subscribe-3 bg-color text-white rounded border-0 p-2 font-weight-bold roboto">Subscribe <i class="fas fa-angle-right"></i></button>
         </div>
   </div>
@@ -1075,8 +1079,8 @@
 <hr>
 
 <div class="footer-links-1 d-flex">
-  <strong class="text-secondary">Editions:</strong>
-  <ul class="menu list-unstyled d-flex ml-2">
+  <strong class="text-secondary strong">Editions:</strong>
+  <ul class="menu list-unstyled d-flex flex-wrap ml-2 first-list">
     <li class="menu-li ml-2"><a class="text-secondary" href="https://www.newsweek.com/">U.S. Edition</a></li>
     <li class="menu-li ml-2"><a class="text-secondary" href="https://www.newsweekjapan.jp/">日本</a></li>
     <li class="menu-li ml-2"><a class="text-secondary" href="http://newsweekpakistan.com/">Pakistan</a></li>
